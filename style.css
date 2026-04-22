@@ -1,6 +1,5 @@
  @charset "UTF-8";
 
-
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 
@@ -18,27 +17,23 @@
 html, body{
     background-color: black;
     min-height: 100vh;
-    position: relative;
 }
 
 
 .menu{
    display: flex;
-   gap: 30px;
+   gap: 20px;
    justify-content: center;
    align-items: center;
    list-style: none;
    background-color: #2A2A2A;
    padding: 10px;
-   width: 600px;
+
+   width: 90%;
+max-width: 600px;
+
    border-radius: 10px;
-
-   position: absolute;
-   margin-top: 10%;
-   left: 50%;
-  
-   transform: translate(-50%);
-
+   margin: 20px auto;
    border: 1px solid white;
 }
 
@@ -53,19 +48,82 @@ html, body{
 
 section#logo01{
     background: url(imagens/wallpaper02.02.png) no-repeat top center;
+    background-size: contain;
+
     border: 1px solid white;
     margin: 0;
-    padding: 85px;
-    height:
+    padding: 100px 0;
+    width: 100%;
 }
+
+section#img02, section#img03, section#img04, section#img05, section#img06, section#img07, section#img08, section#img09, section#img10 {
+    display: inline-block; /* Faz elas aceitarem ficar lado a lado */
+    border: 1px solid white;
+    background-size: cover;
+    background-position: center;
+    width: 300px;  /* Largura fixa para caberem várias na linha */
+    height: 30px; /* Altura fixa para ficarem iguais */
+    margin: 10px;
+    padding: 0;    /* Remova aquele padding de 150px! */
+}
+
+section#img02 { background-image: url(imagens/img02.png); }
+section#img03 { background-image: url(imagens/img03.png); }
+section#img04 { background-image: url(imagens/img04.png); }
+section#img05 { background-image: url(imagens/img05.png); }
+section#img06 { background-image: url(imagens/img06.png); }
+section#img07 { background-image: url(imagens/img07.png); }
+section#img08 { background-image: url(imagens/img08.png); }
+section#img09 { background-image: url(imagens/img09.png); }
+section#img10 { background-image: url(imagens/img10.png); }
+
+
+
+
+
+
+
+
 
 section#img02{
-    background: url(imagens/);
+    border: 1px solid white;
+    background: url(imagens/img02.png) no-repeat center center;
+    padding: 150px;
+    width:185px;
+    max-width: 300px;
+    margin: 30px;
+    margin-top: 60px;
 }
 
+section#img03{
+     border: 1px solid white;
+    background: url(imagens/img03.png) no-repeat center center;
+    padding: 150px;
+    width:185px;
+    max-width: 300px;
+    margin: 30px;
+    margin-top: 60px;
+}
 
+section#img04{
+     border: 1px solid white;
+    background: url(imagens/img04.png) no-repeat center center;
+    padding: 150px;
+    width:185px;
+    max-width: 300px;
+    margin: 30px;
+    margin-top: 60px;
+}
 
-
+section#img05{
+    border: 1px solid white;
+    background: url(imagens/img05.png) no-repeat center center;
+    padding: 150px;
+    width:185px;
+    max-width: 300px;
+    margin: 30px;
+    margin-top: 60px;
+}
 
 
 
